@@ -32,7 +32,7 @@ int main()
         }
     } while (1);
 
-    printf("Computer chose %c\n", computer_choice);
+    printf("\nComputer chose %s\n", computer_choice == 'r' ? "Rock" : (computer_choice == 'p' ? "Paper" : "Scissors"));
 
     if (player_choice == 'r')
     {
@@ -56,10 +56,14 @@ int main()
     else if (player_choice == 'p')
     {
         printf("You chose Paper\n");
+
+        // to do
     }
     else if (player_choice == 's')
     {
         printf("You chose Scissors\n");
+
+        // to do
     }
 
     printf("\nGame Over\n");
