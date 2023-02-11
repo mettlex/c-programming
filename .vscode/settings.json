@@ -1,0 +1,8 @@
+{
+  "triggerTaskOnSave.selectedTask": "Run C",
+  "triggerTaskOnSave.on": true,
+  "triggerTaskOnSave.showNotifications": false,
+  "triggerTaskOnSave.tasks": {
+    "build": ["*.c"]
+  }
+}
